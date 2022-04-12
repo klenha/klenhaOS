@@ -1,0 +1,1 @@
+xrandr --output HDMI-0 --mode 1920x1080 --rate 144 | setxkbmap cz | xinput --set-prop 8 "Coordinate Transformation Matrix" 0.27, 0, 0, 0, 0.27, 0, 0, 0, 1
