@@ -1,4 +1,4 @@
-# klenhaOS Installation tutorial
+# klenhaOS Installation
 1. bashrc
 2. neofetch config
 3. lsb release
