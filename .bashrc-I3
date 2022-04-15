@@ -1,4 +1,4 @@
-PS1="\[$(tput setaf 40)\][\u@\h \W]\$ \[$(tput sgr0)\]"
+PS1="\[$(tput setaf 40)\][\u@\h $(tput setaf 15)\W$(tput setaf 40)]\$ \[$(tput sgr0)\]"
 echo ---initializing---
 sleep 0.9
 clear
