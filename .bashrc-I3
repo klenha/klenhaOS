@@ -1,4 +1,7 @@
-PS1="\[$(tput setaf 40)\][\u@\h $(tput setaf 15)\W$(tput setaf 40)]\$ \[$(tput sgr0)\]"
+#uncomment this if you know where the problem is.
+#the whole line keeps overwriting itself if you type alot of code, doesn't happen
+#without the PS1.
+#PS1="\[$(tput setaf 40)\][\u@\h $(tput setaf 15)\W$(tput setaf 40)]\$ \[$(tput sgr0)\]"
 echo ---initializing---
 sleep 0.9
 clear
