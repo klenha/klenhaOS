@@ -4,7 +4,7 @@
 1. you are gonna remove your system by installing different OS on it if you are not partitioning your drive (if you have no expirience about linux), **USE VIRTUAL MACHINES**
 2. i do not guarantee that your stuff will work 100%. i am just a poor soul trying to make his own config files. :)
 3. if you have any trouble, let me know on matrix channel. #klenha@matrix.org
-4. 
+4. i am **NOT** going to upload ISO files. building ISO files is buggy and mostly didn't work for really well, so i plan on publishing config files instead.
 ## Known issues
 1. (I3 pure arch) some of the steam games may crash on startup, no idea why
 2. (I3 pure arch) the PS1 (username@hostname) in terminal could be overwritten, I don't know why is it, and you fix it by not using the green colors, so removing the piece of PS1=... line in ~/.bashrc
