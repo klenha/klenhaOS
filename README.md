@@ -26,5 +26,5 @@ pre step) preinstall related programs and the base os
 1. minimal archinstall script
 2. i3 theme
 3. custom terminal
-4. lsb-release, neofetch, bashrc
-5.
+4. LY (display manager) config
+5. lsb-release, neofetch, bashrc
