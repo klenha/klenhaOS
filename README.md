@@ -9,8 +9,7 @@
 ## Known issues
 1. (I3 pure arch) some of the steam games may crash on startup, no idea why
 2. (I3 pure arch) the PS1 (username@hostname) in terminal could be overwritten, I don't know why is it, and you fix it by not using the green colors, so removing (or commenting) the piece of PS1=... line in ~/.bashrc
-3. 
-
+3. (I3 pure arch) changing the volume repeatedly will show super high CPU usage, even if its not.
 
 ## klenhaOS Manjaro XFCE version
 pre step) preinstall related programs and the base os 
