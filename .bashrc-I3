@@ -4,13 +4,13 @@
 xinput --set-prop 10 "Coordinate Transformation Matrix" 0.27, 0, 0, 0, 0.27, 0, 0, 0, 1
 PS1="\[$(tput setaf 40)\][\u@\h $(tput setaf 15)\W$(tput setaf 40)]\$ \[$(tput sgr0)\]"
 echo ---initializing---
-sleep 0.9
+sleep 0.6
 clear
 echo -.-initializing-.-
-sleep 0.9
+sleep 0.6
 clear
 echo ---initializing---
-sleep 0.9
+sleep 0.6
 clear
 echo initializing successful, opening terminal.
 sleep 0.3
