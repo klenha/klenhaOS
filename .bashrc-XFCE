@@ -136,14 +136,13 @@ ex ()
 }
 
 echo ---initializing---
-sleep 0.9
+sleep 0.6
 clear
 echo -.-initializing-.-
-sleep 0.9
+sleep 0.6
 clear
 echo ---initializing---
-sleep 0.9
-clear
+sleep 0.6
 echo initializing successful, opening terminal.
 sleep 0.3
 clear
