@@ -1,8 +1,14 @@
-#message me if you know where the problem is.
-#the whole line keeps overwriting itself if you type alot of code, doesn't happen
-#without the PS1.
+#sets the setting to a input with id of 10 (my mouse)
 xinput --set-prop 10 "Coordinate Transformation Matrix" 0.27, 0, 0, 0, 0.27, 0, 0, 0, 1
+#sets the PS1 (name@hostname) in the console to green.
 PS1="\[$(tput setaf 40)\][\u@\h $(tput setaf 15)\W$(tput setaf 40)]\$ \[$(tput sgr0)\]"
+#sets the keyboard layout to czech layout
+setxkbmap cz
+#aliases
+alias whatsthebestos='neofetch'
+alias FUCK='sudo !!'
+alias gaming='echo brunicek'
+#beginning of an "animation"
 echo ---initializing---
 sleep 0.6
 clear
