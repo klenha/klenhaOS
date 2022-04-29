@@ -1,0 +1,37 @@
+* {
+    background-color:      #000000;
+    border-color:          #2B2B2B;
+    text-color:           #38FF00;
+    font:            "Monospace 9";
+}
+window {
+    anchor:     north;
+    location:   north;
+    width:      30%;
+    padding:    1px;
+    children:   [ horibox ];
+}
+
+listview {
+    layout:     horizontal;
+    spacing:    3px;
+    lines:      100;
+}
+entry {
+    expand:     false;
+    width:      12em;
+}
+element {
+    padding: 0px 2px;
+}
+element selected {
+    background-color: #202020;
+}
+
+element-text, element-icon {
+  background-color: inherit;
+}
+horibox {
+    orientation: horizontal;
+    children:   [ entry, listview ];
+}
