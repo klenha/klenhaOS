@@ -1,6 +1,6 @@
 # Screenshots
 ![Screenshot1](https://user-images.githubusercontent.com/103518800/166099314-38ee1c51-2d3f-4ade-b7f7-d7acda3c94dc.png)
-## The RAM usage was high because alot of windows open.
+## The RAM usage was high because alot of windows open. (normal usage is ~600MB)
 ![Screenshot2](https://user-images.githubusercontent.com/103518800/166099324-c2839a61-1e7a-48c3-a012-07947d7239c9.png)
 
 ## Why would i even install this OS?
