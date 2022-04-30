@@ -1,3 +1,12 @@
+# Screenshots
+![Screenshot1](https://user-images.githubusercontent.com/103518800/166099314-38ee1c51-2d3f-4ade-b7f7-d7acda3c94dc.png)
+## The RAM usage was high because alot of windows open.
+![Screenshot2](https://user-images.githubusercontent.com/103518800/166099324-c2839a61-1e7a-48c3-a012-07947d7239c9.png)
+
+# Why would i even install this OS?
+## If you value your privacy, mental sanity, and your wallet, klenhaOS is for you.
+## This OS gives you complete POWER, FREEDOM and PRIVACY over your device.
+## Say no to useless hardware eating! Say yes to freedom! Say yes to klenhaOS!
 
 # klenhaOS Installation (TBF)
 ## Before you install (WARNING)
@@ -9,11 +18,6 @@
 6. the xfce version is not the best one, it was my first time doing any sort of shit with xfce theming, the same with I3 but i am happy with I3 more. it also uses less ram and power.
 7. if the themes for WMs are not uploaded, don't worry, it will be soon!
 8. before you shit talk to me that my config doesn't work, make sure you have all the fonts, make sure you have all the files configured right.
-# Screenshots
-![Screenshot1](https://user-images.githubusercontent.com/103518800/166099314-38ee1c51-2d3f-4ade-b7f7-d7acda3c94dc.png)
-
-![Screenshot2](https://user-images.githubusercontent.com/103518800/166099324-c2839a61-1e7a-48c3-a012-07947d7239c9.png)
-
 
 ## Known issues
 1. (I3 pure arch) some of the steam games may crash on startup, no idea why
