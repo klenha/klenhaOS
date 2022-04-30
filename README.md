@@ -14,7 +14,7 @@
 2. (I3 pure arch) the PS1 (username@hostname) in terminal could be overwritten, I don't know why is it, and you fix it by not using the green colors, so removing (or commenting) the piece of PS1=... line in ~/.bashrc
 3. (I3 pure arch) changing the volume repeatedly will show super high CPU usage, even if its not.
 
-## klenhaOS Manjaro XFCE version
+## klenhaOS Manjaro XFCE version (ABANDONED)
 pre step) preinstall related programs and the base os 
 1. bashrc
 2. neofetch config
@@ -26,7 +26,8 @@ pre step) preinstall related programs and the base os
 
 ## klenhaOS Pure Arch I3 version
 1. minimal archinstall script
-2. i3 theme
-3. custom terminal
+2. i3 theme with i3bar
+3. custom terminal and bashrc
 4. LY (display manager) config
-5. lsb-release, neofetch, bashrc
+5. lsb-release, neofetch
+6. rofi theme
