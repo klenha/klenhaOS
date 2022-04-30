@@ -3,10 +3,10 @@
 ## The RAM usage was high because alot of windows open.
 ![Screenshot2](https://user-images.githubusercontent.com/103518800/166099324-c2839a61-1e7a-48c3-a012-07947d7239c9.png)
 
-# Why would i even install this OS?
-## If you value your privacy, mental sanity, and your wallet, klenhaOS is for you.
-## This OS gives you complete POWER, FREEDOM and PRIVACY over your device.
-## Say no to useless hardware eating! Say yes to freedom! Say yes to klenhaOS!
+## Why would i even install this OS?
+If you value your privacy, mental sanity, and your wallet, **klenhaOS** is for you.
+This OS gives you complete **POWER**, **FREEDOM** and **PRIVACY** over your device.
+Say no to useless hardware eating! Say yes to freedom! Say yes to **klenhaOS!**
 
 # klenhaOS Installation (TBF)
 ## Before you install (WARNING)
