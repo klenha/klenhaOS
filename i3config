@@ -212,7 +212,7 @@ bar {
 # whatever the fuck color i am trying to do
 font pango:Monospace 9
 exec alacritty
-exec librefox
+exec librewolf
 exec flameshot
 title_align left
 default_orientation auto
