@@ -47,7 +47,7 @@ uncomment this line<br />
 
 **WARNING! MAKE SURE YOUR BASHRC IS EDITED BY YOUR NEEDS.**<br />
 <br />
-``<br />
+`nano .bashrc`<br />
 **INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** <br />
 <br />
 **INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**<br />
