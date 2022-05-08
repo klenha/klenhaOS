@@ -25,17 +25,33 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 3. (I3 pure arch) changing the volume repeatedly will show super high CPU usage, even if its not.
 
 
-## klenhaOS Pure Arch I3 version installation
-1. minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE)**
-2. additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm, element-desktop thunar, p7zip, vlc(type it out without . signs)
-3. NEEDED AUR PACKAGES- ly lightshot
-4. add this line into ~/.xinitrc
+# klenhaOS Pure Arch I3 version installation
+## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE)**
+-additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm,  element-desktop thunar, p7zip, vlc(type it out without . signs)
+-NEEDED AUR PACKAGES- ly lightshot
+-add this line into ~/.xinitrc using nano 
+> nano .xinitrc
 > exec i3
+## ADD YOUR USER INTO WHEEL GROUP
+> usermod -a -G wheel username
+> su
+> nano /etc/sudoers
+## UNCOMMENT %wheel ALL=(ALL:ALL) ALL 
 6. i3 theme with i3bar
 7. custom terminal and bashrc
 8. LY (display manager) config
 9. lsb-release, neofetch
 10. rofi theme
+
+
+.
+.
+.
+.
+.
+.
+.
+.
 
 ## klenhaOS Manjaro XFCE version (ABANDONED)
 pre step) preinstall related programs and the base os 
