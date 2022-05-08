@@ -47,7 +47,11 @@ if you are using a virtual machine, make sure you configure i3bar to show on you
 `kate config`
 search for "HDMI-0" and replace it with your output.
 if you are not sure which output you are using, check out
-`xrandr
+`xrandr`
+the output will look crazy, but you can see *** connected in the first lines of it.
+most of the time it is probably Virtual-1.
+
+
 6. i3 theme with i3bar
 7. custom terminal and bashrc
 8. LY (display manager) config
