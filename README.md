@@ -30,15 +30,15 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 -additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm, i3status, element-desktop thunar, p7zip, vlc(type it out without . signs)
 -NEEDED AUR PACKAGES- ly lightshot
 -add this line into ~/.xinitrc using nano 
-> nano .xinitrc
-> exec i3
+`nano .xinitrc`
+`exec i3`
 ## ADD YOUR USER INTO WHEEL GROUP
-> usermod -a -G wheel username
-> su
-> nano /etc/sudoers
+`usermod -a -G wheel username`
+`su`
+`nano /etc/sudoers`
 UNCOMMENT %wheel ALL=(ALL:ALL) ALL 
 ## JOIN I3 
-> startx
+`startx`
 6. i3 theme with i3bar
 7. custom terminal and bashrc
 8. LY (display manager) config
