@@ -36,12 +36,12 @@ add this line into _~/.xinitrc_ using nano <br />
 **ADD YOUR USER INTO WHEEL GROUP (replace username with your actual username)**<br />
 `usermod -a -G wheel username`<br />
 `su`<br />
-`nano /etc/sudoers`<br />
+`nano /etc/sudoers` <br />
 uncomment this line<br />
 `%wheel ALL=(ALL:ALL) ALL`<br />
 <br />
 **ENTER I3**<br />
-`startx`<br />
+`startx` <br />
 <br />
 **INSTALL .BASHRC INTO _~/.bashrc_**<br />
 
@@ -52,34 +52,34 @@ uncomment this line<br />
 <br />
 **INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**<br />
 if you are using a virtual machine, make sure you configure i3bar to show on your real output.<br />
-`cd .config/i3/`<br />
-`kate config`<br />
+`cd .config/i3/` <br />
+`kate config` <br />
 and paste the config from github.<br />
 search for "HDMI-0" and replace it with your output.<br />
 if you are not sure which output you are using, check out<br />
-`xrandr`<br />
+`xrandr` <br />
 the output will look crazy, but you can see *** connected in the first lines of it.<br />
 most of the time it is probably Virtual-1.<br />
 <br />
 **INSTALL XPROFILE INTO _~/.xprofile_**<br />
 `cd` <br />
-`nano .xprofile`<br />
-put in this line `xrandr --output HDMI-0 --mode 1920x1080 --rate 144`<br />
+`nano .xprofile` <br />
+put in this line `xrandr --output HDMI-0 --mode 1920x1080 --rate 144` <br />
 **change your settings to your needs, make sure you keep the rate on your monitor refresh rate, or it could probably fuck up your monitor.**<br />
 <br />
 **INSTALL YAY (aur)**<br />
-`cd /opt`<br />
-`sudo git clone https://aur.archlinux.org/yay.git`<br />
-`sudo chown -R klenha:wheel ./yay`<br />
-`cd yay`<br />
-`makepkg -si`<br />
+`cd /opt` <br />
+`sudo git clone https://aur.archlinux.org/yay.git` <br />
+`sudo chown -R klenha:wheel ./yay` <br />
+`cd yay` <br />
+`makepkg -si` <br />
 this can take your while if your pc is slow.<br />
 
 **AUR PACKAGES TO INSTALL**<br />
-`yay -S ly lightshot signal-desktop freetube p7zip gomuks`<br />
+`yay -S ly lightshot signal-desktop freetube p7zip gomuks` <br />
 <br />
 **install LY (display manager)**<br />
-`systemctl enable ly.service`<br />
+`systemctl enable ly.service` <br />
 install LY config<br />
 `cd /etc/ly/` <br />
 `kate config.ini` <br />
