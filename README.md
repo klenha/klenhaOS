@@ -27,7 +27,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 
 ## klenhaOS Pure Arch I3 version installation
 1. minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE)**
-2. additional packages- firefox, lightshot, neofetch, alacritty, ly, i3wm (type it out without . signs)
+2. additional packages- firefox, lightshot, neofetch, alacritty, ly, i3wm, freetube, thunar, p7zip, virt-manager, qemu, libvirt, edk2-ovmf, dnsmasq, iptables-nft, vlc(type it out without . signs)
 3. i3 theme with i3bar
 4. custom terminal and bashrc
 5. LY (display manager) config
