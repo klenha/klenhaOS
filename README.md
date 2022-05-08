@@ -32,18 +32,23 @@ NEEDED AUR PACKAGES- ly lightshot<br />
 add this line into _~/.xinitrc_ using nano <br />
 `nano .xinitrc`<br />
 `exec i3`<br />
+<br />
 **ADD YOUR USER INTO WHEEL GROUP (replace username with your actual username)**<br />
 `usermod -a -G wheel username`<br />
 `su`<br />
 `nano /etc/sudoers`<br />
 uncomment this line<br />
 `%wheel ALL=(ALL:ALL) ALL`<br />
+<br />
 **ENTER I3 **<br />
 `startx`<br />
+<br />
 **INSTALL .BASHRC INTO _~/.bashrc_**<br />
 **WARNING! MAKE SURE YOUR BASHRC IS EDITED BY YOUR NEEDS.**<br />
 <br />
+
 **INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** <br />
+<br />
 **INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**<br />
 if you are using a virtual machine, make sure you configure i3bar to show on your real output.<br />
 `cd .config/i3/`<br />
