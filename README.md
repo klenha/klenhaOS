@@ -81,8 +81,8 @@ this can take your while if your pc is slow.<br />
 **install LY (display manager)**<br />
 `systemctl enable ly.service`<br />
 install LY config<br />
-`cd /etc/ly/`<br />
-`kate config.ini`<br />
+`cd /etc/ly/` <br />
+`kate config.ini` <br />
 and paste the config in.
 
 
