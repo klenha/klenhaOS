@@ -37,8 +37,17 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 `su`
 `nano /etc/sudoers`
 UNCOMMENT %wheel ALL=(ALL:ALL) ALL 
-## JOIN I3 
+## ENTER I3 
 `startx`
+## INSTALL .BASHRC
+## INSTALL ALACRITTY.YML INTO ~/.config/alacritty/alacritty.yml (create if not found)
+## INSTALL I3 THEME (~/.config/i3/config) WITH I3BAR
+if you are using a virtual machine, make sure you configure i3bar to show on your real output.
+`cd .config/i3/`
+`kate config`
+search for "HDMI-0" and replace it with your output.
+if you are not sure which output you are using, check out
+`xrandr
 6. i3 theme with i3bar
 7. custom terminal and bashrc
 8. LY (display manager) config
