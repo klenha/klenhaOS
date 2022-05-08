@@ -44,15 +44,17 @@ uncomment this line<br />
 `startx`<br />
 <br />
 **INSTALL .BASHRC INTO _~/.bashrc_**<br />
+
 **WARNING! MAKE SURE YOUR BASHRC IS EDITED BY YOUR NEEDS.**<br />
 <br />
-
+``<br />
 **INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** <br />
 <br />
 **INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**<br />
 if you are using a virtual machine, make sure you configure i3bar to show on your real output.<br />
 `cd .config/i3/`<br />
 `kate config`<br />
+and paste the config from github.<br />
 search for "HDMI-0" and replace it with your output.<br />
 if you are not sure which output you are using, check out<br />
 `xrandr`<br />
