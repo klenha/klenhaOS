@@ -29,11 +29,13 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 1. minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE)**
 2. additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm, element-desktop thunar, p7zip, vlc(type it out without . signs)
 3. NEEDED AUR PACKAGES- ly lightshot
-4. i3 theme with i3bar
-5. custom terminal and bashrc
-6. LY (display manager) config
-7. lsb-release, neofetch
-8. rofi theme
+4. add this line into ~/.xinitrc
+> exec i3
+6. i3 theme with i3bar
+7. custom terminal and bashrc
+8. LY (display manager) config
+9. lsb-release, neofetch
+10. rofi theme
 
 ## klenhaOS Manjaro XFCE version (ABANDONED)
 pre step) preinstall related programs and the base os 
