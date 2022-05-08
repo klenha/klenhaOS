@@ -27,7 +27,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 
 # klenhaOS Pure Arch I3 version installation
 ## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE, WORK IN PROGRESS!!!!)**
--additional packages- firefox, nano, kate, neofetch, alacritty, rofi, i3-wm, i3status, element-desktop thunar, p7zip, vlc(type it out without . signs)<br />
+-additional packages- firefox, git nano, kate, neofetch, alacritty, rofi, i3-wm, i3status, element-desktop thunar, p7zip, vlc(type it out without . signs)<br />
 NEEDED AUR PACKAGES- ly lightshot<br />
 add this line into _~/.xinitrc_ using nano <br />
 `nano .xinitrc`<br />
@@ -64,8 +64,19 @@ most of the time it is probably Virtual-1.<br />
 `nano .xprofile`<br />
 put in this line `xrandr --output HDMI-0 --mode 1920x1080 --rate 144`<br />
 **change your settings to your needs, make sure you keep the rate on your monitor refresh rate, or it could probably fuck up your monitor.**<br />
+<br />
+**INSTALL YAY (aur)**<br />
+`cd /opt`<br />
+`sudo git clone https://aur.archlinux.org/yay.git`<br />
+`sudo chown -R klenha:wheel ./yay`<br />
+`cd yay`<br />
+`makepkg -si`<br />
+this can take your while if your pc is slow.<br />
 
-8. install yay
+**AUR PACKAGES TO INSTALL**<br />
+yay -S ly lightshot signal-desktop freetube p7zip gomuks
+
+
 9. LY (display manager) config
 10. lsb-release, neofetch
 11. rofi theme
