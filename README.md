@@ -62,8 +62,8 @@ most of the time it is probably Virtual-1.<br />
 **INSTALL XPROFILE INTO _~/.xprofile_**<br />
 `cd` <br />
 `nano .xprofile`<br />
-> xrandr --output HDMI-0 --mode 1920x1080 --rate 144<br />
-change your settings to your needs, make sure you keep the rate on your monitor refresh rate, or it could probably fuck up your monitor.<br />
+put in this line `xrandr --output HDMI-0 --mode 1920x1080 --rate 144`<br />
+**change your settings to your needs, make sure you keep the rate on your monitor refresh rate, or it could probably fuck up your monitor.**<br />
 
 8. install yay
 9. LY (display manager) config
