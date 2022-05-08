@@ -40,7 +40,7 @@ add this line into _~/.xinitrc_ using nano <br />
 uncomment this line<br />
 `%wheel ALL=(ALL:ALL) ALL`<br />
 <br />
-**ENTER I3 **<br />
+**ENTER I3**<br />
 `startx`<br />
 <br />
 **INSTALL .BASHRC INTO _~/.bashrc_**<br />
@@ -58,13 +58,17 @@ if you are not sure which output you are using, check out<br />
 `xrandr`<br />
 the output will look crazy, but you can see *** connected in the first lines of it.<br />
 most of the time it is probably Virtual-1.<br />
+<br />
+**INSTALL XPROFILE INTO _~/.xprofile_**<br />
+`cd` <br />
+`nano .xprofile`<br />
+> xrandr --output HDMI-0 --mode 1920x1080 --rate 144<br />
+change your settings to your needs, make sure you keep the rate on your monitor refresh rate, or it could probably fuck up your monitor.<br />
 
-
-6. i3 theme with i3bar
-7. custom terminal and bashrc
-8. LY (display manager) config
-9. lsb-release, neofetch
-10. rofi theme
+8. install yay
+9. LY (display manager) config
+10. lsb-release, neofetch
+11. rofi theme
 
 
 .
