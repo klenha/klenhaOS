@@ -27,7 +27,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 
 # klenhaOS Pure Arch I3 version installation
 ## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE, WORK IN PROGRESS!!!!)**
--additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm,  element-desktop thunar, p7zip, vlc(type it out without . signs)
+-additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm, i3status, element-desktop thunar, p7zip, vlc(type it out without . signs)
 -NEEDED AUR PACKAGES- ly lightshot
 -add this line into ~/.xinitrc using nano 
 > nano .xinitrc
@@ -36,7 +36,9 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 > usermod -a -G wheel username
 > su
 > nano /etc/sudoers
-## UNCOMMENT %wheel ALL=(ALL:ALL) ALL 
+UNCOMMENT %wheel ALL=(ALL:ALL) ALL 
+## JOIN I3 
+> startx
 6. i3 theme with i3bar
 7. custom terminal and bashrc
 8. LY (display manager) config
