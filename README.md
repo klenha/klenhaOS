@@ -32,7 +32,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 -add this line into _~/.xinitrc_ using nano <br />
 `nano .xinitrc`<br />
 `exec i3`<br />
-**ADD YOUR USER INTO WHEEL GROUP**<br />
+**ADD YOUR USER INTO WHEEL GROUP (replace username with your actual username)**<br />
 `usermod -a -G wheel username`<br />
 `su`<br />
 `nano /etc/sudoers`<br />
