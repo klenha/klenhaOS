@@ -81,10 +81,10 @@ this can take your while if your pc is slow.<br />
 install LY config<br />
 `cd /etc/ly/`<br />
 `kate config.ini`<br />
+and paste the config in.
 
 
 
-9. LY (display manager) config
 10. lsb-release, neofetch
 11. rofi theme
 
