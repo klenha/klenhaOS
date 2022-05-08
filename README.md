@@ -36,10 +36,11 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 `usermod -a -G wheel username`<br />
 `su`<br />
 `nano /etc/sudoers`<br />
-UNCOMMENT %wheel ALL=(ALL:ALL) ALL <br />
+uncomment this line<br />
+`%wheel ALL=(ALL:ALL) ALL`<br />
 **ENTER I3 **<br />
 `startx`<br />
-**INSTALL .BASHRC**<br />
+**INSTALL .BASHRC INTO _~/.bashrc_**<br />
 **INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** <br />
 **INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**<br />
 if you are using a virtual machine, make sure you configure i3bar to show on your real output.<br />
