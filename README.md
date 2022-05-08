@@ -33,23 +33,23 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 `nano .xinitrc`<br />
 `exec i3`<br />
 **ADD YOUR USER INTO WHEEL GROUP**<br />
-`usermod -a -G wheel username`
-`su`
-`nano /etc/sudoers`
-UNCOMMENT %wheel ALL=(ALL:ALL) ALL 
-**ENTER I3 **
-`startx`
-**INSTALL .BASHRC**
-**INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** 
-**INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**
-if you are using a virtual machine, make sure you configure i3bar to show on your real output.
-`cd .config/i3/`
-`kate config`
-search for "HDMI-0" and replace it with your output.
-if you are not sure which output you are using, check out
-`xrandr`
-the output will look crazy, but you can see *** connected in the first lines of it.
-most of the time it is probably Virtual-1.
+`usermod -a -G wheel username`<br />
+`su`<br />
+`nano /etc/sudoers`<br />
+UNCOMMENT %wheel ALL=(ALL:ALL) ALL <br />
+**ENTER I3 **<br />
+`startx`<br />
+**INSTALL .BASHRC**<br />
+**INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** <br />
+**INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**<br />
+if you are using a virtual machine, make sure you configure i3bar to show on your real output.<br />
+`cd .config/i3/`<br />
+`kate config`<br />
+search for "HDMI-0" and replace it with your output.<br />
+if you are not sure which output you are using, check out<br />
+`xrandr`<br />
+the output will look crazy, but you can see *** connected in the first lines of it.<br />
+most of the time it is probably Virtual-1.<br />
 
 
 6. i3 theme with i3bar
