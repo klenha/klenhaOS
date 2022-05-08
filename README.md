@@ -29,7 +29,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 ## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE, WORK IN PROGRESS!!!!)**
 -additional packages- firefox, nano, kate, neofetch, alacritty, i3-wm, i3status, element-desktop thunar, p7zip, vlc(type it out without . signs)
 -NEEDED AUR PACKAGES- ly lightshot
--add this line into ~/.xinitrc using nano 
+-add this line into _~/.xinitrc_ using nano 
 `nano .xinitrc`
 `exec i3`
 **ADD YOUR USER INTO WHEEL GROUP**
@@ -40,8 +40,8 @@ UNCOMMENT %wheel ALL=(ALL:ALL) ALL
 **ENTER I3 **
 `startx`
 **INSTALL .BASHRC**
-**INSTALL ALACRITTY.YML INTO ~/.config/alacritty/alacritty.yml (create if not found)** 
-**INSTALL I3 THEME (~/.config/i3/config) WITH I3BAR**
+**INSTALL ALACRITTY.YML INTO _~/.config/alacritty/alacritty.yml_ (create if not found)** 
+**INSTALL I3 THEME (_~/.config/i3/config_) WITH I3BAR**
 if you are using a virtual machine, make sure you configure i3bar to show on your real output.
 `cd .config/i3/`
 `kate config`
