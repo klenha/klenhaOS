@@ -88,7 +88,7 @@ install LY config<br />
 and paste the config in.<br />
 <br />
 **CUSTOM NEOFETCH ASCII/LOGO<br />
-first of all, you need to put *lsb-release* into /etc/lsb-release.<br />
+first of all, you need to put *lsb-release* into _/etc/lsb-release_.<br />
 `cd /etc/`<br />
 `nano lsb-release`<br />
 and paste the config in.<br />
