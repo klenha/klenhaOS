@@ -76,8 +76,9 @@ put in this line `xrandr --output HDMI-0 --mode 1920x1080 --rate 144` <br />
 this can take your while if your pc is slow.<br />
 
 **AUR PACKAGES TO INSTALL**<br />
-`yay -S ly lightshot signal-desktop freetube p7zip gomuks` <br />
-<br />
+`yay -S ly` <br />
+**OPTIONAL AUR PACKAGES**<br />
+`yay -S flameshot signal-desktop freetube p7zip gomuks` <br />
 **install LY (display manager)**<br />
 `systemctl enable ly.service` <br />
 install LY config<br />
