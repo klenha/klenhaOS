@@ -27,7 +27,8 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 
 # klenhaOS Pure Arch I3 version installation
 ## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE, WORK IN PROGRESS!!!!)**
--additional packages- firefox, git nano, kate, neofetch, alacritty, rofi, i3-wm, i3status, element-desktop thunar, p7zip, vlc(type it out without . signs)<br />
+-additional packages- firefox, git, nano, kate, neofetch, alacritty, rofi, i3-wm, i3status (type it out without . signs)<br />
+-optional packages- element-desktop, thunar, p7zip, vlc
 NEEDED AUR PACKAGES- ly lightshot<br />
 add this line into _~/.xinitrc_ using nano <br />
 `nano .xinitrc`<br />
@@ -87,7 +88,7 @@ and paste the config in.<br />
 <br />
 **CUSTOM NEOFETCH ASCII/LOGO<br />
 first of all, you need to put *lsb-release* into /etc/lsb-release.<br />
-`cd /etc`<br />
+`cd /etc/`<br />
 `nano lsb-release`<br />
 and paste the config in.<br />
 for now, you have installed info for your distro, now we need to install the neofetch.<br />
