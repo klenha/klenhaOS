@@ -98,13 +98,16 @@ open the file and put the config in.<br />
 `nano config.conf`<br />
 
 **INSTALL ROFI (run menu) THEME INTO _~/.config/rofi/_** <br />
-
-`cd .config/rofi/`
-`kate klenhaOS.rasi`
-and paste the theme in.
-`rofi-theme selector`
-and select the theme called klenhaOS.
-
+`cd .config/rofi/` <br />
+`kate klenhaOS.rasi` <br />
+paste the theme in. <br />
+`rofi-theme selector` <br /> 
+and select the theme. <br />
+<br />
+<br />
+<br />
+<br />
+**AND YOU ARE DONE! CONGRATULATIONS!** <br />
 .
 .
 .
