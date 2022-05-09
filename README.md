@@ -26,6 +26,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to random crashing
 
 
 # klenhaOS Pure Arch I3 version installation
+## NOTE, IF SOME OF THE DIRECTORIES ARE MISSING, CREATE THEM!
 ## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE, WORK IN PROGRESS!!!!)**
 -additional packages- firefox, git, nano, kate, neofetch, alacritty, rofi, i3-wm, i3status (type it out without . signs)<br />
 -optional packages- element-desktop, thunar, p7zip, vlc <br />
@@ -76,7 +77,7 @@ put in this line `xrandr --output HDMI-0 --mode 1920x1080 --rate 144` <br />
 this can take your while if your pc is slow.<br />
 
 **AUR PACKAGES TO INSTALL**<br />
-`yay -S ly` <br />
+`yay -S ly librewolf-bin` <br />
 **OPTIONAL AUR PACKAGES**<br />
 `yay -S flameshot signal-desktop freetube p7zip gomuks` <br />
 **install LY (display manager)**<br />
