@@ -87,7 +87,7 @@ install LY config<br />
 `kate config.ini` <br />
 and paste the config in.<br />
 <br />
-**CUSTOM NEOFETCH ASCII/LOGO<br />
+**CUSTOM NEOFETCH ASCII/LOGO** <br />
 first of all, you need to put *lsb-release* into _/etc/lsb-release_.<br />
 `cd /etc/`<br />
 `nano lsb-release`<br />
@@ -95,7 +95,8 @@ and paste the config in.<br />
 for now, you have installed info for your distro, now we need to install the neofetch.<br />
 `cd .config/neofetch/`<br />
 open the file and put the config in.<br />
-10. lsb-release, neofetch
+`nano config.conf`<br />
+
 11. rofi theme
 
 
