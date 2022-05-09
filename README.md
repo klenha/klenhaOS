@@ -6,7 +6,7 @@
 ## Why would i even install this OS?
 If you value your privacy, mental sanity, and your wallet, **klenhaOS** is for you.
 This OS gives you complete **POWER**, **FREEDOM** and **PRIVACY** over your device.
-Say no to useless hardware eating! Say yes to freedom! Say no to random crashing! Say yes to **klenhaOS!**
+Say no to useless hardware eating! Say yes to freedom! Say no to creepy spying!!! Say yes to **klenhaOS!**
 
 # klenhaOS Installation (TBF)
 ## Before you install (WARNING)
@@ -102,6 +102,8 @@ open the file and put the config in.<br />
 `cd .config/rofi/`
 `kate klenhaOS.rasi`
 and paste the theme in.
+`rofi-theme selector`
+and select the theme called klenhaOS.
 
 .
 .
