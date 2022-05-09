@@ -97,8 +97,11 @@ for now, you have installed info for your distro, now we need to install the neo
 open the file and put the config in.<br />
 `nano config.conf`<br />
 
-11. rofi theme
+**INSTALL ROFI (run menu) THEME INTO _~/.config/rofi/_** <br />
 
+`cd .config/rofi/`
+`kate klenhaOS.rasi`
+and paste the theme in.
 
 .
 .
