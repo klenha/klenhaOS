@@ -101,7 +101,7 @@ open the file and put the config in.<br />
 `cd .config/rofi/` <br />
 `kate klenhaOS.rasi` <br />
 paste the theme in. <br />
-`rofi-theme selector` <br /> 
+`rofi-theme-selector` <br /> 
 and select the theme. <br />
 <br />
 <br />
