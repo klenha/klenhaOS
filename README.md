@@ -30,7 +30,7 @@ Say no to useless hardware eating! Say yes to freedom! Say no to creepy spying!!
 ## minimal archinstall script with xorg config **(THE ARCHINSTALL COULD CHANGE, WORK IN PROGRESS!!!!)**
 -additional packages- firefox, git, nano, kate, neofetch, alacritty, rofi, i3-wm, i3status (type it out without . signs)<br />
 -optional packages- element-desktop, thunar, p7zip, vlc <br />
-add this line into _~/.xinitrc_ using nano <br />
+add this line into _~/.xinitrc_ using nano WITHOUT ROOT <br />
 `nano .xinitrc`<br />
 `exec i3`<br />
 <br />
